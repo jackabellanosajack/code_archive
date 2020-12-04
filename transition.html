@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body>button {
+            width: 100px;
+            height: 30px;
+            border: 1px black solid;
+            background-color: transparent;
+            border-radius: 5px;
+            font-weight: bold;
+            box-shadow: 0px 0px 10px 0px;
+            margin: 10% auto;
+            /* transition: transform 0.5s 2s; */
+        }
+
+
+        .grow:hover {
+            transform: translateY(-1px);
+            box-shadow: 0px 0px 15px 0px;
+        }
+
+        .grow:active {
+            transform: translateY(1px);
+            box-shadow: 0px 0px 5px 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <button class="grow">click</button>
+</body>
+
+</html>
